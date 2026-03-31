@@ -2,9 +2,19 @@ Today march 31, 2026. i have learnt to install git and created my first folder a
 
 TODAY I LEARNT 
 
+git config --global user.name "Karthick S"
+git config --global user.email "karthickshanmugamm@gmail.com"
+
 git init - 
 git status
-git add <file name>
+
+mkdir <folder-name> - create new folder
+touch <file-name> or <"file name"> - create new file
+
+cd <folder-name> - get inside folder
+cd ~/Desktop/git-test open particular folder
+
+git add <file-name> or <"file name">
 git add .
 git commit -m "message"
 git log
