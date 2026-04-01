@@ -92,3 +92,6 @@ git commit --amend --no-edit
 --amend: This takes your new changes and "stuffs" them into your last commit.
 
 --no-edit: This tells Git to keep the same message ("Day 2: Created GitHub repository...") so you don't have to re-type it.
+
+
+so now i successfully created a repository in github and pull and push files from and to git hub
