@@ -1,0 +1,49 @@
+🛠️ DAY 3: Organizing, Cleaning, & Protecting
+Today was about moving from a "messy desk" to a "structured system." You learned how to manipulate files both through the standard terminal and through Git's specialized commands.
+
+1. Creating & Adding (The Foundation)
+You moved toward a "Daily Folder" structure to keep your 300-day journey organized.
+
+Create Folder: mkdir Day-03
+
+Create File: touch Day-03/organizing.txt
+
+Add to Git: git add . (Tells Git to watch these new items).
+
+2. The .gitignore (The Shield)
+You created a special "Filter" file to keep junk out of your private GitHub.
+
+File Name: .gitignore (Must start with a dot).
+
+Purpose: Automatically ignores temporary or hidden system files (like Thumbs.db or *.tmp).
+
+Rule: Once a file is in .gitignore, Git will never ask you to "add" it again.
+
+3. Deleting (The Clean-up)
+You practiced removing "training" files that were no longer needed.
+
+Delete File: rm filename.txt
+
+Delete Folder: rm -r foldername
+
+The -r (recursive) is required to delete a folder and everything inside it.
+
+4. Renaming & Moving (The Organization)
+You learned that there are two ways to rename, depending on if Git already "knows" the file.
+
+For New Files (Uncommitted): Use mv old.txt new.txt then git add ..
+
+For Existing Files (Committed): Use git mv old.txt new.txt.
+
+This keeps the "History" of the file linked to the new name.
+
+🏁 The "Class is Over" Workflow
+To finish your Day 3 session and secure your work in the cloud, follow this final sequence:
+
+Check Status: git status (Verify your renames and deletions are correct).
+
+Stage All: git add .
+
+Final Commit: git commit -m "Day 3: Completed organizing, cleaning, and renaming logs"
+
+Sync Cloud: git push
