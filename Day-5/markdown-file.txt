@@ -1,0 +1,18 @@
+📝 Day 5: The GitHub Dashboard (Markdown)🎯 ObjectiveTo transform a plain GitHub repository into a professional-looking project using Markdown (.md) formatting.🛠️ Key Markdown Shortcuts LearnedStyleSymbolExample
+
+H1 Header   ##        Main Title
+H2 Header   ##  ##    Section
+H3 Header   ### ###   Sub section
+Bold        ** **     Important
+Italic      * *       Emphasis
+List        - or *    -Item 1
+Divider     ---      (Horizontal Line)
+Links       [ ]( )    My GitHub🔄
+
+
+ The "Two-Way Street" (Git Pull)I learned that if I edit my files directly on the GitHub Website, my local computer falls behind.Command: git pull origin mainPurpose: To download changes from the cloud to my PC so both stay in sync.💡 Daily Reflection"A professional engineer doesn't just write code; they write documentation that others can actually read."
+
+✅ Checklist for Completion[x] Create/Update README.md[x] Use at least one Table[x] Use at least one Horizontal Divider[x] git add . -> git commit -> git push🏁 How to Save Today's Work:Since you've done the "Low Weightage" study, run these final commands in your git-test folder:Bash
+git add .
+git commit -m "Day 5: Completed Markdown mastery and README dashboard"
+git push
