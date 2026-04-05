@@ -1,0 +1,14 @@
+📝 Day 6 Summary: The "Clean & Fast" Workflow
+
+1. The Gatekeeper (.gitignore)We confirmed that your repository is protected from "trash" files.
+Purpose: Automatically ignores temporary files (like _bak001.rss, *.tmp, or Thumbs.db).
+Benefit: Keeps your GitHub looking professional and prevents your PC from uploading 100MB of useless backup data.
+
+2. The Engineer's Shortcuts (Aliases)We learned how to create "Nicknames" for the commands you use every day.
+git config --global alias.s status $\rightarrow$ 
+Now you just type git s.git config --global alias.l "log --oneline" $\rightarrow$ 
+Now you just type git l.git config --global alias.cm "!git add . && git commit -m" $\rightarrow$ The "Master Save" shortcut.
+
+3. The "Undo" Button (--unset)You learned how to reset your Git settings if you make a mistake or want to change your mind.
+Command: git config --global --unset alias.[name]Professional Tip: Using git config --global --list lets you "audit" your own settings to see what shortcuts are active.📊 Weekly Milestone 
+Check:DayTopicSkill Gained04Time Travelcheckout & diff05DashboardMarkdown & README.md06Efficiency.gitignore & Aliases
